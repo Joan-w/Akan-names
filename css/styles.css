@@ -60,7 +60,7 @@ img:hover{
 #image a:hover{
     color: cornsilk;
 }
-/* #result{
+#result{
     font-family: 'Odibee Sans', cursive;
     font-size: 24px;
     color: indigo;
@@ -68,4 +68,4 @@ img:hover{
     border: 2px solid gray;
     padding:5px;
     border-radius: 3px;
-} */
+}
