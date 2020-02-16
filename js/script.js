@@ -17,16 +17,16 @@ function getName(){
     else if (month < 0 || month > 12 ){
         alert("Hey you need to enter a valid month!");
     }
-    // else if( dayOfMonth < 0 || dayOfMonth >31) {
-    //     alert("Hey you need to re-enter a valid day!");
-    // }
-    // else if (male.checked == false && female.checked == false){
-    //     alert("You need to specify your gender!");
-    // }
-    // else if (male.checked == true){
-    //     result.innerHTML = "Hello handsome. " + "Your Ghananian Akan name is " + maleNames[birthDay] + " simply because you were born on a " + days[birthDay] + ".";
-    // } 
-    // else if (female.checked == true){
-    //     result.innerHTML = "Hello beautiful. " + "Your Ghananian Akan name is " + femaleNames[birthDay] + " simply because you were born on a " + days[birthDay] + ".";
-    // }
+    else if( dayOfMonth < 0 || dayOfMonth >31) {
+        alert("Hey you need to re-enter a valid day!");
+    }
+    else if (male.checked == false && female.checked == false){
+        alert("You need to specify your gender!");
+    }
+    else if (male.checked == true){
+        result.innerHTML = "Hello handsome. " + "Your Ghananian Akan name is " + maleNames[birthDay] + " simply because you were born on a " + days[birthDay] + ".";
+    } 
+    else if (female.checked == true){
+        result.innerHTML = "Hello beautiful. " + "Your Ghananian Akan name is " + femaleNames[birthDay] + " simply because you were born on a " + days[birthDay] + ".";
+    }
 }
