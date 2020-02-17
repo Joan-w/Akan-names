@@ -28,5 +28,5 @@ function getName(){
     } 
     else if (female.checked == true){
         result.innerHTML = "Hello beautiful. " + "Your Ghananian Akan name is " + femaleNames[birthDay] + " simply because you were born on a " + days[birthDay] + ".";
-    }
+    } 
 }
